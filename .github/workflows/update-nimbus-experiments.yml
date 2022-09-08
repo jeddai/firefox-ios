@@ -17,15 +17,16 @@ jobs:
           ref: main
       - name: "Update Experiments JSON"
         id: update-experiments-json
-        uses: mozilla-mobile/update-experiments@v1
+        uses: mozilla-mobile/update-experiments@fix-1-check-status-against-remote-branch
         with:
           repo-path: firefox-ios
           output-path: Client/Experiments/initial_experiments.json
-          experimenter-url: https://experimenter.services.mozilla.com/api/v6/experiments/?is_first_run=true
+          experimenter-url: https://experimenter.services.mozilla.com/api/v6/experiments-first-run/
           app-name: firefox_ios
+          branch: automation/update-nimbus-experiments
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
-        if: steps.update-experiments-json.outputs.changed == 1
+        if: steps.update-experiments-json.outputs.changed == 1 && steps.update-experiments-json.outputs.changed-branch == 1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           path: firefox-ios
