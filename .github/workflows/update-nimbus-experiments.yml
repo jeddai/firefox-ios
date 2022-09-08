@@ -15,6 +15,7 @@ jobs:
         with:
           path: firefox-ios
           ref: main
+          fetch-depth: 0
       - name: "Update Experiments JSON"
         id: update-experiments-json
         uses: mozilla-mobile/update-experiments@fix-1-check-status-against-remote-branch
