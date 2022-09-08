@@ -18,7 +18,7 @@ jobs:
           fetch-depth: 0
       - name: "Update Experiments JSON"
         id: update-experiments-json
-        uses: mozilla-mobile/update-experiments@fix-1-check-status-against-remote-branch
+        uses: mozilla-mobile/update-experiments@v2
         with:
           repo-path: firefox-ios
           output-path: Client/Experiments/initial_experiments.json
