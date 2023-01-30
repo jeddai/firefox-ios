@@ -193,12 +193,6 @@
 /* Context menu item for sharing a link URL */
 "ContextMenu.ShareLinkButtonTitle" = "Compartilhar link";
 
-/* Contextual hints are little popups that appear for the users informing them of new features. This one introduces search bar placement to existing users. It tells them that the search bar can now be moved to the bottom of the screen. */
-"ContextualHint.SearchBarPlacement.ExistingUsers" = "Agora você pode mover a barra de ferramentas para baixo, assim fica mais fácil digitar informações";
-
-/* Contextual hints are little popups that appear for the users informing them of new features. This one introduces search bar placement to new users. It tells them that by default, the search bar will appear at the bottom of the device. */
-"ContextualHint.SearchBarPlacement.NewUsers" = "Para facilitar digitar informações, agora por padrão a barra de ferramentas fica embaixo.";
-
 /* Contextual hints are little popups that appear for the users informing them of new features. This one is a call to action for the popup describing search bar placement. It indicates a user can navigate to the settings page that allows them to customize the placement of the search bar. */
 "ContextualHints.SearchBarPlacement.CallToAction" = "Configurações da barra de ferramentas";
 
@@ -920,7 +914,7 @@
 "Onboarding.Sync.Skip.Action.v106" = "Pular";
 
 /* String used to describes the title of what Firefox is on the Sync onboarding page for 106 version in our Onboarding screens. */
-"Onboarding.Sync.Title.v106" = "Alterne entre celular e notebook";
+"Onboarding.Sync.Title.v106" = "Alterne entre celular e computador";
 
 /* Describes an action on the sync onboarding page in our Onboarding screens. This string will be on a button so user can sign up or login directly in the onboarding. */
 "Onboarding.SyncAction.v102" = "Cadastrar-se e entrar";
@@ -1253,7 +1247,7 @@
 "Settings.Disconnect.Body" = "O Firefox deixará de sincronizar com a sua conta, mas não excluirá seus dados de navegação neste dispositivo.";
 
 /* Button displayed at the bottom of settings page allowing users to Disconnect from FxA */
-"Settings.Disconnect.Button" = "Desconectar Sync";
+"Settings.Disconnect.Button" = "Desconectar sincronização";
 
 /* Cancel action button in alert when user is prompted for disconnect */
 "Settings.Disconnect.CancelButton" = "Cancelar";
@@ -1262,7 +1256,7 @@
 "Settings.Disconnect.DestructiveButton" = "Desconectar";
 
 /* Title of the alert when prompting the user asking to disconnect. */
-"Settings.Disconnect.Title" = "Desconectar Sync?";
+"Settings.Disconnect.Title" = "Desconectar sincronização?";
 
 /* Section header for brightness slider. */
 "Settings.DisplayTheme.BrightnessThreshold.SectionHeader" = "Tolerância";
@@ -1313,7 +1307,7 @@
 "Settings.FxA.DeviceName" = "Nome do dispositivo";
 
 /* Label used as a section title in the Firefox Accounts Settings screen. */
-"Settings.FxA.Sync.SectionName" = "Configurações do Sync";
+"Settings.FxA.Sync.SectionName" = "Configurações de sincronização";
 
 /* Title displayed in header of the FxA settings panel. */
 "Settings.FxA.Title" = "Conta Firefox";
@@ -1389,6 +1383,18 @@
 
 /* In the settings menu, on the Firefox wallpaper customization screen, this is the title of the section that allows users to change the wallpaper settings for the application. */
 "Settings.Home.Option.Wallpaper.CollectionTitle" = "TELA DE ABERTURA";
+
+/* In the settings menu, on the Firefox wallpaper customization screen, this is the button title of the group of wallpapers that are seasonally available to the user. */
+"Settings.Home.Option.Wallpaper.LearnMore.v106" = "Saiba mais";
+
+/* In the settings menu, on the Firefox wallpaper customization screen, this is the default description of the group of wallpapers that are seasonally available to the user. */
+"Settings.Home.Option.Wallpaper.LimitedEdition.Default.Description.v106" = "Experimente a nova coleção.";
+
+/* In the settings menu, on the Firefox wallpaper customization screen, this is the description of the group of wallpapers that are seasonally available to the user. */
+"Settings.Home.Option.Wallpaper.LimitedEdition.IndependentVoices.Description.v106" = "A nova coleção de vozes independentes.";
+
+/* In the settings menu, on the Firefox wallpaper customization screen, this is the title of the group of wallpapers that are seasonally available to the user. */
+"Settings.Home.Option.Wallpaper.LimitedEdition.Title.v106" = "Edição limitada";
 
 /* In the settings menu, on the Firefox wallpaper customization screen, this is the string titling the switch button's function, which allows a user to toggle wallpaper switching from the homepage logo on or off. */
 "Settings.Home.Option.Wallpaper.SwitchTitle.v99" = "Mudar o fundo de tela tocando no logotipo do Firefox na tela inicial";
@@ -1532,7 +1538,7 @@
 "Settings.Studies.Toggle.Title" = "Estudos";
 
 /* Ddescription that appears in the settings screen to explain what Firefox Sync is useful for. */
-"Settings.Sync.ButtonDescription.v103" = "Entre para sincronizar abas, favoritos, senhas e muito mais.";
+"Settings.Sync.ButtonDescription.v103" = "Entre na conta para sincronizar abas, favoritos, senhas e muito mais.";
 
 /* Button label that appears in the settings to prompt the user to sign in to Firefox for iOS sync service to sync and save data. */
 "Settings.Sync.ButtonTitle.v103" = "Sincronizar e salvar dados";
@@ -1667,7 +1673,7 @@
 "Sync.SyncingEllipsis.Label" = "Sincronizando…";
 
 /* Title for Sync status message when Sync failed due to being offline */
-"SyncState.Offline.Title" = "O Sync está offline";
+"SyncState.Offline.Title" = "A sincronização está offline";
 
 /* Message spoken by VoiceOver saying the position of the single currently visible tab in Tabs Tray, along with the total number of tabs. E.g. \"Tab 2 of 5\" says that tab 2 is visible (and is the only visible tab), out of 5 tabs total. */
 "Tab %@ of %@" = "Aba %1$@ de %2$@";
