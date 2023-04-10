@@ -14,7 +14,7 @@
 "Aa" = "Aa";
 
 /* About settings section title */
-"About" = "ਇਸ ਦੇ ਬਾਰੇ";
+"About" = "ਇਸ ਬਾਰੇ";
 
 /* The title for the pinning a shortcut action */
 "ActivityStream.ContextMenu.AddToShortcuts" = "ਸ਼ਾਰਟਕੱਟਾਂ ਵਿੱਚ ਜੋੜੋ";
@@ -41,7 +41,7 @@
 "ActivityStream.Shortcuts.SectionTitle" = "ਸ਼ਾਰਟਕੱਟ";
 
 /* The title for the setting page which lets you select the number of top site rows */
-"ActivityStream.TopSites.RowSettingFooter" = "ਕਤਾਰਾਂ ਤਹਿ ਕਰੋ";
+"ActivityStream.TopSites.RowSettingFooter" = "ਕਤਾਰਾਂ ਸੈੱਟ ਕਰੋ";
 
 /* Accessibility label for the Add Tab button in the Tab Tray. */
 "Add Tab" = "ਟੈਬ ਜੋੜੋ";
@@ -50,7 +50,7 @@
 "Add to Reading List" = "ਪੜ੍ਹਨ ਸੂਚੀ ਵਿੱਚ ਜੋੜੋ";
 
 /* Accessibility message e.g. spoken by VoiceOver after the current page gets added to the Reading List using the Reader View button, e.g. by long-pressing it or by its accessibility custom action. */
-"Added page to Reading List" = "ਪੜ੍ਹਨ ਸੂਚੀ ਵਿੱਚ ਸਫ਼ਾ ਜੋੜਿਆ ਗਿਆ";
+"Added page to Reading List" = "ਸਫ਼ੇ ਨੂੰ ਪੜ੍ਹਨ ਵਾਲਿਆਂ ਦੀ ਸੂਚੀ ਵਿੱਚ ਜੋੜਿਆ";
 
 /* Button to dismiss the 'Add Pass Failed' alert.  See https://support.apple.com/HT204003 for context on Wallet. */
 "AddPass.Error.Dismiss" = "ਠੀਕ ਹੈ";
@@ -164,7 +164,7 @@
 "ContextMenu.BookmarkLinkButtonTitle" = "ਲਿੰਕ ਬੁੱਕਮਾਰਕ ਕਰੋ";
 
 /* The label text in the Button Toast for switching to a fresh New Private Tab. */
-"ContextMenu.ButtonToast.NewPrivateTabOpened.LabelText" = "ਨਵੀਂ ਪ੍ਰਾਈਵੇਟ ਟੈਬ ਖੋਲ੍ਹੀ ਗਈ";
+"ContextMenu.ButtonToast.NewPrivateTabOpened.LabelText" = "ਨਵੀਂ ਨਿੱਜੀ ਟੈਬ ਖੋਲ੍ਹੀ ਗਈ";
 
 /* The button text in the Button Toast for switching to a fresh New Tab. */
 "ContextMenu.ButtonToast.NewTabOpened.ButtonText" = "ਜਾਓ";
@@ -192,12 +192,6 @@
 
 /* Context menu item for sharing a link URL */
 "ContextMenu.ShareLinkButtonTitle" = "ਲਿੰਕ ਸਾਂਝਾ ਕਰੋ";
-
-/* Contextual hints are little popups that appear for the users informing them of new features. This one introduces search bar placement to existing users. It tells them that the search bar can now be moved to the bottom of the screen. */
-"ContextualHint.SearchBarPlacement.ExistingUsers" = "ਹੁਣ ਤੂੰ ਟੂਲਬਾਰ ਨੂੰ ਹੇਠਾਂ ਲਿਆ ਸਕਦੇ ਹੋ ਤਾਂ ਕਿ ਜਾਣਕਾਰੀ ਭਰਨੀ ਸੌਖੀ ਰਹੇ";
-
-/* Contextual hints are little popups that appear for the users informing them of new features. This one introduces search bar placement to new users. It tells them that by default, the search bar will appear at the bottom of the device. */
-"ContextualHint.SearchBarPlacement.NewUsers" = "ਜਾਣਕਾਰੀ ਭਰਨ ਨੂੰ ਸੌਖਾ ਕਰਨ ਲਈ ਟੂਲਬਾਰ ਹੁਣ ਮੂਲ ਰੂਪ ਵਿੱਚ ਹੇਠਾਂ ਹੁੰਦੀ ਹੈ।";
 
 /* Contextual hints are little popups that appear for the users informing them of new features. This one is a call to action for the popup describing search bar placement. It indicates a user can navigate to the settings page that allows them to customize the placement of the search bar. */
 "ContextualHints.SearchBarPlacement.CallToAction" = "ਟੂਲਬਾਰ ਸੈਟਿੰਗਾਂ";
@@ -349,9 +343,6 @@
 /* When a user taps and holds on an item from the Recently Visited section, this label will appear indicating the option to remove that item. */
 "FirefoxHome.RecentHistory.Remove" = "ਹਟਾਓ";
 
-/* Label showing how many sites there is in a search group. %d represents a number */
-"FirefoxHomepage.Common.SitesCount.v101" = "ਸਾਈਟਾਂ: %d";
-
 /* The title for the Settings context menu action for sponsored tiles in the Firefox home page shortcuts section. Clicking this brings the users to the Shortcuts Settings. */
 "FirefoxHomepage.ContextualMenu.Settings.v101" = "ਸੈਟਿੰਗਾਂ";
 
@@ -473,7 +464,7 @@
 "HomePanel.ContextMenu.DeleteFromHistory" = "ਅਤੀਤ 'ਚੋਂ ਹਟਾਓ";
 
 /* The title for the Open in New Private Tab context menu action for sites in Home Panels */
-"HomePanel.ContextMenu.OpenInNewPrivateTab.v101" = "ਪ੍ਰਾਈਵੇਟ ਟੈਬ ਵਿੱਚ ਖੋਲ੍ਹੋ";
+"HomePanel.ContextMenu.OpenInNewPrivateTab.v101" = "ਨਿੱਜੀ ਟੈਬ ਵਿੱਚ ਖੋਲ੍ਹੋ";
 
 /* The title for the Open in New Tab context menu action for sites in Home Panels */
 "HomePanel.ContextMenu.OpenInNewTab" = "ਨਵੀਂ ਟੈਬ 'ਚ ਖੋਲ੍ਹੋ";
@@ -500,7 +491,7 @@
 "Hotkeys.Forward.DiscoveryTitle" = "ਅੱਗੇ";
 
 /* A label indicating the keyboard shortcut of creating a new private tab. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details. */
-"Hotkeys.NewPrivateTab.DiscoveryTitle" = "ਨਵੀਂ ਪ੍ਰਾਈਵੇਟ ਟੈਬ";
+"Hotkeys.NewPrivateTab.DiscoveryTitle" = "ਨਵੀਂ ਨਿੱਜੀ ਟੈਬ";
 
 /* A label indicating the keyboard shortcut of creating a new tab. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details. */
 "Hotkeys.NewTab.DiscoveryTitle" = "ਨਵੀਂ ਟੈਬ";
@@ -937,9 +928,6 @@
 /* Accessibility label for the wallpaper onboarding modal displayed on top of the homepage. This describes to the user that which type of wallpaper they are seeing. */
 "Onboarding.Wallpaper.Accessibility.LimitedEdition.v106" = "ਸੀਮਿਤ ਐਡੀਸ਼ਨ ਵਾਲਪੇਪਰ";
 
-/* Description for the wallpaper onboarding modal displayed on top of the homepage. This describes to the user that they can set a wallpaper. */
-"Onboarding.Wallpaper.Action.v106" = "ਹੋਰ ਵਾਲਪੇਪਰ ਵੇਖੋ";
-
 /* Description for the wallpaper onboarding modal displayed on top of the homepage. This describes to the user that they can choose different wallpapers. */
 "Onboarding.Wallpaper.Description.v106" = "ਵਾਲਪੇਪਰ ਚੁਣੋ, ਜੋ ਤੁਹਾਡੇ ਰੰਗ ਵਿੱਚ ਢਲੇ ਹੋਣ।";
 
@@ -1229,10 +1217,10 @@
 "Settings.ClearAllWebsiteData.Clear.Button" = "ਸਾਰੇ ਵੈੱਬਸਾਈਟ ਡਾਟੇ ਨੂੰ ਸਾਫ਼ ਕਰੋ";
 
 /* Button in settings that clears private data for the selected items. */
-"Settings.ClearPrivateData.Clear.Button" = "ਪ੍ਰਾਈਵੇਟ ਡਾਟੇ ਨੂੰ ਮਿਟਾਓ";
+"Settings.ClearPrivateData.Clear.Button" = "ਨਿੱਜੀ ਡਾਟੇ ਨੂੰ ਮਿਟਾਓ";
 
 /* Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data. */
-"Settings.ClearPrivateData.SectionName" = "ਪ੍ਰਾਈਵੇਟ ਡਾਟੇ ਨੂੰ ਮਿਟਾਓ";
+"Settings.ClearPrivateData.SectionName" = "ਨਿੱਜੀ ਡਾਟੇ ਨੂੰ ਮਿਟਾਓ";
 
 /* Button in Data Management that clears private data for the selected items. Parameter is the number of items to be cleared */
 "Settings.ClearSelectedWebsiteData.ClearSelected.Button" = "ਚੀਜ਼ਾਂ ਮਿਟਾਓ: %1$@";
@@ -1389,6 +1377,18 @@
 
 /* In the settings menu, on the Firefox wallpaper customization screen, this is the title of the section that allows users to change the wallpaper settings for the application. */
 "Settings.Home.Option.Wallpaper.CollectionTitle" = "ਸ਼ੁਰੂਆਤੀ ਸਕਰੀਨ";
+
+/* In the settings menu, on the Firefox wallpaper customization screen, this is the button title of the group of wallpapers that are seasonally available to the user. */
+"Settings.Home.Option.Wallpaper.LearnMore.v106" = "ਹੋਰ ਜਾਣੋ";
+
+/* In the settings menu, on the Firefox wallpaper customization screen, this is the default description of the group of wallpapers that are seasonally available to the user. */
+"Settings.Home.Option.Wallpaper.LimitedEdition.Default.Description.v106" = "ਨਵੇਂ ਭੰਡਾਰ ਨੂੰ ਵਰਤ ਕੇ ਵੇਖੋ।";
+
+/* In the settings menu, on the Firefox wallpaper customization screen, this is the description of the group of wallpapers that are seasonally available to the user. */
+"Settings.Home.Option.Wallpaper.LimitedEdition.IndependentVoices.Description.v106" = "ਨਵਾਂ ਆਜ਼ਾਦ ਆਵਾਜ਼ਾਂ ਦਾ ਭੰਡਾਰ ਹੈ।";
+
+/* In the settings menu, on the Firefox wallpaper customization screen, this is the title of the group of wallpapers that are seasonally available to the user. */
+"Settings.Home.Option.Wallpaper.LimitedEdition.Title.v106" = "ਲਿਮਟਡ ਐਡੀਸ਼ਨ";
 
 /* In the settings menu, on the Firefox wallpaper customization screen, this is the string titling the switch button's function, which allows a user to toggle wallpaper switching from the homepage logo on or off. */
 "Settings.Home.Option.Wallpaper.SwitchTitle.v99" = "Firefox ਮੁੱਖ-ਸਫ਼ੇ ਲੋਗੋ ਨੂੰ ਛੂਹ ਕੇ ਵਾਲਪੇਪਰ ਬਦਲੋ";
@@ -1567,9 +1567,6 @@
 /* Dismiss button for the tracker protection alert. */
 "Settings.TrackingProtection.Alert.Button" = "ਠੀਕ ਹੈ, ਸਮਝ ਗਏ";
 
-/* Decription for the tracker protection alert. */
-"Settings.TrackingProtection.Alert.Description" = "ਜੇ ਕੋਈ ਸਾਈਟ ਉਮੀਦ ਮੁਤਾਬਕ ਕੰਮ ਨਹੀਂ ਕਰਦੀ, ਤਾਂ ਐਡਰੈੱਸ ਬਾਰ ਵਿੱਚ ਸ਼ੀਲਡ 'ਤੇ ਟੈਪ ਕਰੋ ਅਤੇ ਉਸ ਪੰਨੇ ਲਈ ਵਾਧਾ ਕੀਤੀ ਟਰੈਕਿੰਗ ਸੁਰੱਖਿਆ ਨੂੰ ਬੰਦ ਕਰੋ।";
-
 /* Title for the tracker protection alert. */
 "Settings.TrackingProtection.Alert.Title" = "ਧਿਆਨ ਰੱਖੋ!";
 
@@ -1581,9 +1578,6 @@
 
 /* Additional information about your Enhanced Tracking Protection */
 "Settings.TrackingProtection.ProtectionCellFooter" = "ਟੀਚਾ ਬਣਾਏ ਇਸ਼ਤਿਹਾਰਾਂ ਨੂੰ ਘਟਾਉਂਦੀ ਹੈ ਅਤੇ ਇਸ਼ਤਿਹਾਰਦਾਤਿਆਂ ਨੂੰ ਤੁਹਾਡੇ ਬ੍ਰਾਊਜ਼ਿੰਗ ਨੂੰ ਟਰੈਕ ਕਰਨ ਤੋਂ ਰੋਕਣ ਵਿੱਚ ਮਦਦ ਕਰਦੀ ਹੈ।";
-
-/* Footer information for tracker protection level. */
-"Settings.TrackingProtection.ProtectionLevel.Footer" = "ਜੇ ਕੋਈ ਸਾਈਟ ਉਮੀਦ ਮੁਤਾਬਕ ਕੰਮ ਨਹੀਂ ਕਰਦੀ, ਤਾਂ ਐਡਰੈੱਸ ਬਾਰ ਵਿੱਚ ਸ਼ੀਲਡ 'ਤੇ ਟੈਪ ਕਰੋ ਅਤੇ ਉਸ ਪੰਨੇ ਲਈ ਵਾਧਾ ਕੀਤੀ ਟਰੈਕਿੰਗ ਸੁਰੱਖਿਆ ਨੂੰ ਬੰਦ ਕਰੋ।";
 
 /* Description for standard level tracker protection */
 "Settings.TrackingProtection.ProtectionLevelStandard.Description" = "ਕੁਝ ਇਸ਼ਤਿਹਾਰ ਟਰੈਕ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਦਿੰਦੀ ਹੈ, ਤਾਂ ਜੋ ਵੈੱਬਸਾਈਟਾਂ ਠੀਕ ਢੰਗ ਨਾਲ ਕੰਮ ਕਰ ਸਕਣ।";
@@ -1715,7 +1709,7 @@
 "TabTray.OpenNewTab.KeyCodeTitle" = "ਨਵੀਂ ਟੈਬ ਖੋਲ੍ਹੋ";
 
 /* The title on the button to look at private tabs. */
-"TabTray.SegmentedControlTitles.PrivateTabs" = "ਪ੍ਰਾਈਵੇਟ";
+"TabTray.SegmentedControlTitles.PrivateTabs" = "ਨਿੱਜੀ";
 
 /* The title on the button to look at synced tabs. */
 "TabTray.SegmentedControlTitles.SyncedTabs" = "ਸਿੰਕ ਕੀਤੀਆਂ";
