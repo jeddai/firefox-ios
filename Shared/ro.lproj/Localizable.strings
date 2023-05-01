@@ -430,6 +430,9 @@
 /* Relative time for a tab that was visited within the last few moments. */
 "just now" = "chiar acum";
 
+/* A label indicating a grouping of related keyboard shortcuts describing actions a user can do with Bookmarks. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details. */
+"Keyboard.Shortcuts.Section.Bookmark" = "Marcaje";
+
 /* A label indicating a grouping of related keyboard shortcuts describing actions a user can do with locally saved items. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details. */
 "Keyboard.Shortcuts.Section.Tools" = "Instrumente";
 
@@ -997,9 +1000,6 @@
 /* Dismiss button for the tracker protection alert. */
 "Settings.TrackingProtection.Alert.Button" = "OK, am înțeles!";
 
-/* Decription for the tracker protection alert. */
-"Settings.TrackingProtection.Alert.Description" = "Dacă un site nu funcționează cum era de așteptat, atinge scutul din bara de adrese și dezactivează protecția îmbunătățită împotriva urmăririi pentru pagina respectivă.";
-
 /* Title for the tracker protection alert. */
 "Settings.TrackingProtection.Alert.Title" = "Atenție!";
 
@@ -1011,9 +1011,6 @@
 
 /* Additional information about your Enhanced Tracking Protection */
 "Settings.TrackingProtection.ProtectionCellFooter" = "Reduce reclamele țintite și te ajută să oprești firmele care își fac publicitate din a te mai urmări pe unde navighezi.";
-
-/* Footer information for tracker protection level. */
-"Settings.TrackingProtection.ProtectionLevel.Footer" = "Dacă un site nu funcționează cum era de așteptat, atinge scutul din bara de adrese și dezactivează protecția îmbunătățită împotriva urmăririi pentru pagina respectivă.";
 
 /* Description for standard level tracker protection */
 "Settings.TrackingProtection.ProtectionLevelStandard.Description" = "Permite unele elemente de urmărire pentru ca site-urile web să funcționeze corespunzător.";
