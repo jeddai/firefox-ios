@@ -64,6 +64,9 @@
 /* Accessibility label for address and search field, both words (Address, Search) are therefore nouns. */
 "Address and Search" = "Adresse og søgning";
 
+/* Accessibility label for action adding current page to reading list. */
+"Address.Bar.ReadingList.v106" = "Føj til læseliste";
+
 /* Accessibility label for the Address Bar, where a user can enter the search they wish to make */
 "Address.Bar.v99" = "Adressefelt";
 
@@ -189,12 +192,6 @@
 
 /* Context menu item for sharing a link URL */
 "ContextMenu.ShareLinkButtonTitle" = "Del link";
-
-/* Contextual hints are little popups that appear for the users informing them of new features. This one introduces search bar placement to existing users. It tells them that the search bar can now be moved to the bottom of the screen. */
-"ContextualHint.SearchBarPlacement.ExistingUsers" = "Du kan nu flytte værktøjslinjen til bunden, så det er nemmere at indtaste informationer";
-
-/* Contextual hints are little popups that appear for the users informing them of new features. This one introduces search bar placement to new users. It tells them that by default, the search bar will appear at the bottom of the device. */
-"ContextualHint.SearchBarPlacement.NewUsers" = "For at gøre indtastning af informationer nemmere er værktøjslinjen nu i bunden som standard.";
 
 /* Contextual hints are little popups that appear for the users informing them of new features. This one is a call to action for the popup describing search bar placement. It indicates a user can navigate to the settings page that allows them to customize the placement of the search bar. */
 "ContextualHints.SearchBarPlacement.CallToAction" = "Indstillinger for værktøjslinje";
@@ -346,17 +343,20 @@
 /* When a user taps and holds on an item from the Recently Visited section, this label will appear indicating the option to remove that item. */
 "FirefoxHome.RecentHistory.Remove" = "Fjern";
 
-/* Label showing how many sites there is in a search group. %d represents a number */
-"FirefoxHomepage.Common.SitesCount.v101" = "Websteder: %d";
-
 /* The title for the Settings context menu action for sponsored tiles in the Firefox home page shortcuts section. Clicking this brings the users to the Shortcuts Settings. */
 "FirefoxHomepage.ContextualMenu.Settings.v101" = "Indstillinger";
 
 /* The title for the Sponsored Content context menu action for sponsored tiles in the Firefox home page shortcuts section. Clicking this brings the users to a support page where users can learn more about Sponsored content and how it works. */
 "FirefoxHomepage.ContextualMenu.SponsoredContent.v101" = "Vores sponsorer og dit privatliv";
 
+/* Accessibility action title to open the synced tab for tab pickup on the Firefox homepage in the Jump Back In section. */
+"FirefoxHomepage.JumpBackIn.TabPickup.OpenTab.A11y.v106" = "Åbn synkroniseret faneblad";
+
 /* Button title shown for tab pickup on the Firefox homepage in the Jump Back In section. */
 "FirefoxHomepage.JumpBackIn.TabPickup.ShowAll.ButtonTitle.v104" = "Vis alle synkroniserede faneblade";
+
+/* If a user is signed in, and a sync has been performed to collect their recent tabs from other signed in devices, their most recent tab from another device can now appear in the Jump Back In section. This label specifically points out which cell inside the Jump Back In section shows that synced tab. */
+"FirefoxHomepage.JumpBackIn.TabPickup.v104" = "Synkroniserede faneblade";
 
 /* This string will show under the description on pocket story, indicating that the story is sponsored. */
 "FirefoxHomepage.Pocket.Sponsored.v103" = "Sponsoreret";
@@ -577,6 +577,12 @@
 /* This label is meant to signify the section containing a group of items from the past seven days. */
 "Last week" = "Seneste uge";
 
+/* Panel accessibility label */
+"LibraryPanel.Accessibility.Bookmarks.v106" = "Bogmærker";
+
+/* Panel accessibility label */
+"LibraryPanel.Accessibility.History.v106" = "Historik";
+
 /* Within the History Panel, users can delete search group sites history. They can cancel this action by pressing a cancel button. */
 "LibraryPanel.History.ClearGroupedTabsCancel.v100" = "Fortryd";
 
@@ -745,6 +751,12 @@
 /* Label for the button, displayed in the menu, takes you to to Downloads screen when pressed. */
 "Menu.Downloads.Label" = "Filhentninger";
 
+/* A switch to disable enhanced tracking protection inside the menu. */
+"Menu.EnhancedTrackingProtectionOff.Title" = "Beskyttelse er slået FRA for dette websted";
+
+/* A switch to enable enhanced tracking protection inside the menu. */
+"Menu.EnhancedTrackingProtectionOn.Title" = "Beskyttelse er slået TIL for dette websted";
+
 /* Label for the help button in the menu page. Pressing this button opens the support page https://support.mozilla.org/en-US/products/ios */
 "Menu.Help.v99" = "Hjælp";
 
@@ -880,45 +892,6 @@
 /* Restore Tabs Affirmative Action */
 "Okay" = "Ja";
 
-/* Describes the action on the first onboarding page in our Onboarding screen. This string will be on a button so user can continue the onboarding. */
-"Onboarding.IntroAction.v102" = "Kom i gang";
-
-/* String used to describes what Firefox is on the first onboarding page in our Onboarding screens. Indie means small independant. */
-"Onboarding.IntroDescriptionPart1.v102" = "Uafhængig. Non-profit. For det fælles bedste.";
-
-/* String used to describes what Firefox is on the first onboarding page in our Onboarding screens. */
-"Onboarding.IntroDescriptionPart2.v102" = "Dedikeret til løftet om et bedre internet for alle.";
-
-/* Describes an action on some of the Onboarding screen, including the wallpaper onboarding screen. This string will be on a button so user can skip that onboarding page. */
-"Onboarding.LaterAction.v102" = "Ikke nu";
-
-/* String used to describes the option to skip the Sync sign in during onboarding for 106 version in Firefox Onboarding screens. */
-"Onboarding.Sync.Skip.Action.v106" = "Spring over";
-
-/* String used to describes the title of what Firefox is on the Sync onboarding page for 106 version in our Onboarding screens. */
-"Onboarding.Sync.Title.v106" = "Hop fra telefonen til computeren og tilbage";
-
-/* Describes an action on the sync onboarding page in our Onboarding screens. This string will be on a button so user can sign up or login directly in the onboarding. */
-"Onboarding.SyncAction.v102" = "Tilmeld og log ind";
-
-/* Description for the sync onboarding page in our Onboarding screens. The user will be able to setup their Firefox sync account from that screen. */
-"Onboarding.SyncDescription.v102" = "Hop nemt fra den ene skærm til den anden med automatisk synkronisering af faneblade og bogmærker på tværs af enheder.";
-
-/* Title for the sync onboarding page in our Onboarding screens. The user will be able to setup their Firefox sync account from that screen. 'Stay in the flow' means that a person is fully immersed in an activity. The user will sync with their Firefox sync account to stay connected and immersed in the activity they are doing. */
-"Onboarding.SyncTitle.v102" = "Synkroniser for ikke at tabe tråden";
-
-/* Accessibility label for the wallpaper onboarding modal displayed on top of the homepage. This describes to the user that which type of wallpaper they are seeing. */
-"Onboarding.Wallpaper.Accessibility.Classic.v106" = "Klassisk baggrund";
-
-/* Description for the wallpaper onboarding modal displayed on top of the homepage. This describes to the user that they can set a wallpaper. */
-"Onboarding.Wallpaper.Action.v106" = "Udforsk flere baggrunde";
-
-/* Description for the wallpaper onboarding page in our Onboarding screens. This describes to the user that they can set a wallpaper. */
-"Onboarding.WallpaperAction.v102" = "Vælg baggrund";
-
-/* Title for the wallpaper onboarding page in our Onboarding screens. This describes to the user that they can choose different wallpapers. */
-"Onboarding.WallpaperTitle.v102" = "Vælg en Firefox-baggrund";
-
 /* On the onboarding card letting users know what's new in this version of Firefox, this is the title for the button, on the bottom of the card, used to get back to browsing on Firefox by dismissing the onboarding card */
 "Onboarding.WhatsNew.Button.Title" = "Gå i gang";
 
@@ -978,6 +951,12 @@
 
 /* Accessibility message e.g. spoken by VoiceOver when Reader Mode becomes available. */
 "ReaderMode.Available.VoiceOverAnnouncement" = "Læsevisning tilgængelig";
+
+/* Name for Mark as read button in reader mode */
+"ReaderModeBar.MarkAsRead.v106" = "Marker som læst";
+
+/* Name for Mark as unread button in reader mode */
+"ReaderModeBar.MarkAsUnread.v106" = "Marker som ulæst";
 
 /* Panel accessibility label */
 "Reading list" = "Læseliste";
@@ -1077,6 +1056,15 @@
 
 /* The confirmation button */
 "Search.ThirdPartyEngines.OK" = "OK";
+
+/* Accessibility label for default search engine setting. */
+"SearchSettings.Accessibility.DefaultSearchEngine.v106" = "Standardsøgetjeneste";
+
+/* Title for default search engine settings section. */
+"SearchSettings.Title.DefaultSearchEngine.v106" = "Standardsøgetjeneste";
+
+/* Navigation title for search settings. */
+"SearchSettings.Title.Search.v106" = "Søgning";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
 "Send a crash report so Mozilla can fix the problem?" = "Vil du sende en fejlrapport, så Mozilla kan løse problemet?";
@@ -1336,6 +1324,18 @@
 /* In the settings menu, on the Firefox wallpaper customization screen, this is the title of the section that allows users to change the wallpaper settings for the application. */
 "Settings.Home.Option.Wallpaper.CollectionTitle" = "FØRSTE SKÆRMBILLEDE";
 
+/* In the settings menu, on the Firefox wallpaper customization screen, this is the button title of the group of wallpapers that are seasonally available to the user. */
+"Settings.Home.Option.Wallpaper.LearnMore.v106" = "Læs mere";
+
+/* In the settings menu, on the Firefox wallpaper customization screen, this is the default description of the group of wallpapers that are seasonally available to the user. */
+"Settings.Home.Option.Wallpaper.LimitedEdition.Default.Description.v106" = "Prøv den nye kollektion.";
+
+/* In the settings menu, on the Firefox wallpaper customization screen, this is the description of the group of wallpapers that are seasonally available to the user. */
+"Settings.Home.Option.Wallpaper.LimitedEdition.IndependentVoices.Description.v106" = "Den nye kollektion \"Uafhængige stemmer\".";
+
+/* In the settings menu, on the Firefox wallpaper customization screen, this is the title of the group of wallpapers that are seasonally available to the user. */
+"Settings.Home.Option.Wallpaper.LimitedEdition.Title.v106" = "Begrænset udgave";
+
 /* In the settings menu, on the Firefox wallpaper customization screen, this is the string titling the switch button's function, which allows a user to toggle wallpaper switching from the homepage logo on or off. */
 "Settings.Home.Option.Wallpaper.SwitchTitle.v99" = "Skift baggrund ved at trykke på Firefox-logoet på startsiden";
 
@@ -1513,9 +1513,6 @@
 /* Dismiss button for the tracker protection alert. */
 "Settings.TrackingProtection.Alert.Button" = "Ok, forstået";
 
-/* Decription for the tracker protection alert. */
-"Settings.TrackingProtection.Alert.Description" = "Hvis et websted ikke virker som ventet, så kan du trykke på skjoldet i adressefeltet og slå Udvidet beskyttelse mod sporing fra for webstedet.";
-
 /* Title for the tracker protection alert. */
 "Settings.TrackingProtection.Alert.Title" = "Vigtigt!";
 
@@ -1527,9 +1524,6 @@
 
 /* Additional information about your Enhanced Tracking Protection */
 "Settings.TrackingProtection.ProtectionCellFooter" = "Reducerer antallet af målrettede reklamer og gør det sværere for annoncørerne at følge din adfærd på nettet.";
-
-/* Footer information for tracker protection level. */
-"Settings.TrackingProtection.ProtectionLevel.Footer" = "Hvis et websted ikke virker som ventet, så kan du trykke på skjoldet i adressefeltet og slå Udvidet beskyttelse mod sporing fra for webstedet.";
 
 /* Description for standard level tracker protection */
 "Settings.TrackingProtection.ProtectionLevelStandard.Description" = "Tillader noget sporing fra reklamer, så websteder fungerer korrekt.";
@@ -1639,6 +1633,9 @@
 /* Accessibility title for the inactive tabs section button when section is open. This section groups all tabs that haven't been used in a while. */
 "TabsTray.InactiveTabs.SectionTitle.Opened.Accessibility.v103" = "Skjul inaktive faneblade";
 
+/* Accessibility Label for the tab toolbar Search button */
+"TabToolbar.Accessibility.Search.v106" = "Søg";
+
 /* Accessibility label for the Add Tab button in the Tab Tray. */
 "TabTray.AddTab.Button" = "Tilføj faneblad";
 
@@ -1669,6 +1666,9 @@
 /* The title for the tab tray */
 "TabTray.Title" = "Åbne faneblade";
 
+/* Accessibility Label for the tabs button in the tab toolbar */
+"TabTrayButtons.Accessibility.ShowTabs.v106" = "Vis faneblade";
+
 /* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Firefox reader mode from another app. */
 "The page could not be displayed in Reader View." = "Siden kunne ikke vises i læsevisning.";
 
@@ -1680,6 +1680,9 @@
 
 /* Relative date for date in past week. */
 "this week" = "denne uge";
+
+/* Relative date for yesterday. */
+"TimeConstants.Yesterday.v106" = "i går";
 
 /* label for Not Now button */
 "Toasts.NotNow" = "Ikke nu";
@@ -1725,9 +1728,6 @@
 
 /* Accessibility label for unread article in reading list. It's a past participle - functions as an adjective. */
 "unread" = "ulæst";
-
-/* Describes an action on the sync upgrade page in our Upgrade screens. This string will be on a button so user can sign up or login directly in the upgrade. */
-"Upgrade.SyncSign.Action.v106" = "Log ind";
 
 /* Debug option */
 "Use stage servers" = "Brug test-servere";
