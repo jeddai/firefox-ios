@@ -22,7 +22,7 @@ jobs:
           fetch-depth: 0
       - name: "Update Experiments JSON"
         id: update-experiments-json
-        uses: mozilla-mobile/update-experiments@v3
+        uses: mozilla-mobile/update-experiments@jhugman/exp-3605-format-carriage-returns-correctly
         with:
           repo-path: firefox-ios
           output-path: Client/Experiments/initial_experiments.json
